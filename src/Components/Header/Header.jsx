@@ -11,6 +11,7 @@ import { auth } from "../../firebase/firebase.utils";
 import "./styles.scss";
 
 function Header({ currentUser, hidden }) {
+  console.log(currentUser);
   return (
     <div className="header">
       <Link className="logo-container" to="/">

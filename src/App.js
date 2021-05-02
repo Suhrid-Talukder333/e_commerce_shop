@@ -5,6 +5,7 @@ import { createStructuredSelector } from "reselect";
 import Header from "./Components/Header/Header";
 import SignInSignUp from "./Pages/SignInSignUp/SignInSignUp";
 import React from "react";
+import Checkout from "./Pages/Checkout/Checkout";
 import { connect } from "react-redux";
 import { setCurrentUser } from "./redux/user/userActions";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
@@ -49,6 +50,7 @@ class App extends React.Component {
               this.props.currentUser ? <Redirect to="/" /> : <SignInSignUp />
             }
           />
+          <Route exact path="/checkout" component={Checkout} />
         </Switch>
       </div>
     );
