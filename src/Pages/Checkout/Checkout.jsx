@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import StripeButton from "../../Components/StripeButton/StripeButton";
 import { createStructuredSelector } from "reselect";
 import { selectCartItems, selectTotal } from "../../redux/cart/cartSelectors";
 import CheckoutItems from "../../Components/CheckoutItems/CheckoutItems";
@@ -30,6 +31,12 @@ function Checkout({ cartItems, total }) {
         <CheckoutItems key={items.id} cartItems={items} />
       ))}
       <div className="total">$TOTAL:{total}</div>
+      <div className="test-warning">
+        ***PLEASE USE THE FOLLOWING CREDIT CARD INFO FOR TEST PAYMENTS:
+        <br />
+        4242 4242 4242 4242- EXP: 01/(presentYear + 1) -CVV:123
+      </div>
+      <StripeButton price={total} />
     </div>
   );
 }
