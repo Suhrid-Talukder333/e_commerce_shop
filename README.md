@@ -1,6 +1,6 @@
 <h1>SHOP APP</h1>
 <div>
-  <img src="" />
+  <img src="https://media.giphy.com/media/NQXRZkwq6JeK1GWu9q/giphy.gif" />
 </div>
 </br></br>
 <p>This is build on react js and firebase with state management using redux</p>
