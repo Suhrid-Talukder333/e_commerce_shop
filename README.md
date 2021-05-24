@@ -3,7 +3,7 @@
   <img src="https://media.giphy.com/media/NQXRZkwq6JeK1GWu9q/giphy.gif" />
 </div>
 </br></br>
-<p>This is build on react js and firebase with state management using redux</p>
+<p>This is build on react js and firebase with state management using redux. It also has a demo payment method with stripe</p>
 
 ## Contributing
 
