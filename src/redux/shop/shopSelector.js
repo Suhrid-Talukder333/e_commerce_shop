@@ -1,7 +1,7 @@
 import { createSelector } from "reselect";
 
 const CollectionIdMap = {
-  hats: 1,
+  bags: 1,
   sneakers: 2,
   jackets: 3,
   womens: 4,

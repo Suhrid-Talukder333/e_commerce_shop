@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
-import { ReactComponent as Logo } from "../../assets/crown.svg";
+import { ReactComponent as Logo } from "../../assets/brand.svg";
 import CartIcon from "../CartIcon/CartIcon";
 import CartDropDown from "../CartDropDown/CartDropDown";
 import { selectCurrentUser } from "../../redux/user/userSelector";
