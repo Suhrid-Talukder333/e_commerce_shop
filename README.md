@@ -7,7 +7,7 @@
 
 ## Live Website
 
-https://shoploapp.herokuapp.com/
+https://rangamati-fashion-accessories.herokuapp.com/
 
 ## Contributing
 
